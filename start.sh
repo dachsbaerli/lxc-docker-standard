@@ -25,6 +25,6 @@ while true; do
     case $answer in
         [Yy]* ) reboot; break;;
         [Nn]* ) echo "Please consider rebooting"; exit;;
-        * ) echo "Please answer Y or N.";;
+        * ) echo "Please answer y or n.";;
     esac
 done
