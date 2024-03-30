@@ -9,4 +9,14 @@ echo "---packages up-to-date---"
 echo "---curl installed---"
 echo "---docker installed---"
 echo ""
-echo "Reboot required"
+echo "Docker installed - Reboot required"
+
+
+while true; do
+    read -r -p "Do you wish to reboot the system? (Y/N): " answer
+    case $answer in
+        [Yy]* ) reboot; break;;
+        [Nn]* ) echo "Please consider rebooting"; exit;;
+        * ) echo "Please answer Y or N.";;
+    esac
+done
