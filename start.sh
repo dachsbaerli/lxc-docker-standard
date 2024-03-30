@@ -2,11 +2,11 @@
 echo "install updates"
 apt-get update && apt-get upgrade -y && apt autoremove
 
-echo "Install curl"
+echo "install curl"
 apt-get install curl -y
 
 echo
-echo "install docker and docker-compose"
+echo "Install docker and docker-compose"
 curl -sSL https://get.docker.com | sh
 apt-get install docker-compose -y
 
@@ -22,10 +22,10 @@ echo ""
 
 echo "Docker installed - Reboot recommended"
 while true; do
-    read -r -p "Do you wish to reboot the system? (Y/N): " answer
+    read -r -p "Do you wish to reboot the system? (y/n): " answer
     case $answer in
         [Yy]* ) reboot; break;;
         [Nn]* ) echo "Please consider rebooting"; exit;;
-        * ) echo "Please answer Y or N.";;
+        * ) echo "Wrong answer. Please answer y or n.";;
     esac
 done
