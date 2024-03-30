@@ -10,3 +10,6 @@ set timezone to Europe/Berlin
 timedatectl set-timezone Europe/Berlin  
   
 option to reboot automatically  
+
+run  
+wget https://github.com/dachsbaerli/lxc-docker-standard/blob/main/start.sh && chmod +x start.sh && ./start.sh  
