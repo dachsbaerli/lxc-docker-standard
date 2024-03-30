@@ -5,4 +5,4 @@ curl -sSL https://get.docker.com | sh
 apt-get install docker-compose
 echo "packages up-to-date"
 echo "curl installed"
-echo "docker installed
+echo "docker installed"
