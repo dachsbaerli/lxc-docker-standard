@@ -19,7 +19,8 @@ echo "---packages up-to-date---"
 echo "---curl installed---"
 echo "---docker installed---"
 echo ""
-echo "Docker installed - Reboot required"
+
+echo "Docker installed - Reboot recommended"
 while true; do
     read -r -p "Do you wish to reboot the system? (Y/N): " answer
     case $answer in
