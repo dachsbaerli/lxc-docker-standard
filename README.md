@@ -16,3 +16,5 @@ echo "---curl installed---"
 echo "---docker installed---"  
 echo ""  
 echo "Reboot required"  
+
+#option to reboot
