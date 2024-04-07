@@ -1,6 +1,6 @@
 # lxc-docker
 
-run this script as root or sudo  
+run this script as root or with sudo  
 this script does:  
   
 install updates  
