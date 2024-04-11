@@ -8,7 +8,7 @@ apt-get install curl -y
 echo
 echo "Install docker and docker-compose"
 curl -sSL https://get.docker.com | sh
-apt-get install docker-compose -y
+#apt-get install docker-compose -y
 
 echo
 echo "set timezone to Europe/Berlin"
