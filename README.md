@@ -5,7 +5,7 @@ this script does:
   
 install updates  
 Install curl  
-install docker and docker-compose  
+install docker with docker-compose  
 set timezone to Europe/Berlin  
 timedatectl set-timezone Europe/Berlin  
   
