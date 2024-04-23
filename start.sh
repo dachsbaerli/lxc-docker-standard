@@ -6,7 +6,7 @@ echo "install curl"
 apt-get install curl -y
 
 echo
-echo "Install docker and docker-compose"
+echo "Install docker"
 curl -sSL https://get.docker.com | sh
 # apt-get install docker-compose -y
 
