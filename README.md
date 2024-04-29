@@ -12,4 +12,4 @@ timedatectl set-timezone Europe/Berlin
 option to reboot automatically  
 
 run from cli:  
-wget -O - https://raw.githubusercontent.com/dachsbaerli/lxc-docker-standard/main/start.sh | bash
+wget https://raw.githubusercontent.com/dachsbaerli/lxc-docker-standard/main/start.sh && chmod +x start.sh && ./start.sh
