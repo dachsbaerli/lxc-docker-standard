@@ -21,12 +21,12 @@ echo "---docker installed---"
 echo ""
 
 echo "Docker installed - Reboot recommended"
-while true; do
-    read -r -p "Do you wish to reboot the system? (y/n): " answer
-    case $answer in
-        [Yy]* ) reboot; break;;
-        [Nn]* ) echo "Please consider rebooting"; exit;;
-        * ) echo "Wrong answer. Please answer y or n.";;
-    esac
-done
+# while true; do
+#     read -r -p "Do you wish to reboot the system? (y/n): " answer
+#     case $answer in
+#         [Yy]* ) reboot; break;;
+#         [Nn]* ) echo "Please consider rebooting"; exit;;
+#         * ) echo "Wrong answer. Please answer y or n.";;
+#     esac
+# done
 
