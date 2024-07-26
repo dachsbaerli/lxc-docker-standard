@@ -47,4 +47,5 @@ echo "Docker installed - Reboot recommended"
 #         * ) echo "Wrong answer. Please answer y or n.";;
 #     esac
 # done
-
+echo "System will reboot now"
+sleep 10
